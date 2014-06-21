@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+
+	"name": "Twitch.tv Popup Mode",
+	"description": "Swap between normal and popup mode in a twitch.tv stream.",
+	"version": "1.0",
+
+	"page_action": {
+		"default_icon": "icon.png"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"http://twitch.tv/",
+		"tabs"
+	]
+
+}
